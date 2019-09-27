@@ -54,8 +54,8 @@ footer {
         margin-left: 0%;
     }
     section.Ingredients, section.Directions {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
         text-align: left;
     }
 }
