@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    background-image: url("img_cuttingBoard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#wrapper {
+    opacity: 0.8;
+    margin-left: 7.3%;
+    width: 85vw;
+    background-color: beige;
+    box-shadow: -.2em .2em 1em grey;
+}
+
+h1, h2, h3, p, ol, ul, li {
+    color: rgb(56, 9, 9);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header, section.Ingredients, section.Directions {
+    padding-bottom: 3em;
+}
+
+header {
+    margin: 5%;
+    padding-top: 2%;
+}
+
+h1 {
+    text-shadow: .2em .2em .2em rgb(131, 121, 121);
+}
+
+section.Ingredients, section.Directions {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+footer {
+    margin: 2%;
+    padding-bottom: 2%;
+    font-style: italic
+}
+
+@media only screen and (max-width: 700px){
+    #wrapper {
+        width: 100vw;
+        margin-left: 0%;
+    }
+    section.Ingredients, section.Directions {
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: left;
+    }
+}
