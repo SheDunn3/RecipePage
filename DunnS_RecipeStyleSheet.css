@@ -2,7 +2,7 @@ body {
     text-align: center;
     background-image: url("img_cuttingBoard.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100vh;
     background-attachment: fixed;
 }
 
