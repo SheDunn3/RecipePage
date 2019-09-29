@@ -7,10 +7,11 @@ body {
 }
 
 #wrapper {
-    opacity: 0.8;
     margin-left: 7.3%;
+    margin-top: 0%;
+    margin-bottom: 0%;
     width: 85vw;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.7);
     box-shadow: -.2em .2em 1em grey;
 }
 
@@ -30,6 +31,11 @@ header {
 
 h1 {
     text-shadow: .2em .2em .2em rgb(131, 121, 121);
+}
+
+img {
+    width: 50%;
+    height: auto;
 }
 
 section.Ingredients, section.Directions {
@@ -53,6 +59,7 @@ footer {
         width: 100vw;
         margin-left: 0%;
     }
+
     section.Ingredients, section.Directions {
         margin-left: 5%;
         margin-right: 5%;
