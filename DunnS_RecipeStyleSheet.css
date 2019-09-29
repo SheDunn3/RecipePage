@@ -7,10 +7,10 @@ body {
 }
 
 #wrapper {
-    margin-left: 7.3%;
+    margin-left: 9%;
     margin-top: 0%;
     margin-bottom: 0%;
-    width: 85vw;
+    width: 80vw;
     background-color: rgba(245, 245, 220, 0.7);
     box-shadow: -.2em .2em 1em grey;
 }
